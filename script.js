@@ -26,9 +26,9 @@ let search = () => {
                 card.classList.add('col-md-3', 'col-6', 'mb-4');
 
                 card.innerHTML = `
-                    <div class="card h-100 border-0 shadow-sm">
-                        <img src="${item.album.cover}" class="card-img-top rounded" alt="${item.title}">
-                        <div class="card-body">
+                    <div class="card" style="width: 18rem; display: flex; justify-content: center">
+                        <img src="${item.album.cover}" class="card-img-top rounded mx-auto" alt="${item.title}">
+                        <div class="card-body text-center">
                             <h5 class="card-title">${item.title}</h5>
                             <p class="card-text">${item.artist.name}</p>
                         </div>

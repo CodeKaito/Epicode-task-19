@@ -229,3 +229,11 @@ ul {
 .mainPage img {
   width: 200px;
 }
+
+.searchResultContainer {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  height: 40vh;
+}
