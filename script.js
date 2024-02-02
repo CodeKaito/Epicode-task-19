@@ -30,7 +30,7 @@ buttonSearch.addEventListener("click", () => {
 
             data.data.forEach(item => {
                 let card = document.createElement('div');
-                card.classList.add('col-md-3', 'col-6', 'mb-4');
+                card.classList.add('col-xl-4', 'col-lg-6', 'col-md-6', 'col-sm-12', 'mb-4');
 
                 card.innerHTML = `
                     <div class="card" style="width: 18rem; display: flex; justify-content: center">
